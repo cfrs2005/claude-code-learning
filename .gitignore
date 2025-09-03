@@ -11,6 +11,9 @@
 .claude/logs/
 .claude/sessions/
 
+# 项目学习记录（本地使用，不提交）
+CLAUDE.md
+
 # 系统文件
 .DS_Store
 Thumbs.db

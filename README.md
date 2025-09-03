@@ -16,6 +16,10 @@
 - ✅ 实现多代理协作工作流
 - ✅ 应用 Linus 式代码审查
 - ✅ 构建智能分析流水线
+- 🆕 掌握社区最佳实践与企业级配置
+- 🆕 学习 Bilibili 视频内容处理技术
+- 🆕 理解官方最佳实践和高级技巧
+- 🆕 实用工作流和高级配置管理
 
 ## 📚 课程结构
 
@@ -42,6 +46,30 @@
 - **内容**: Extended Thinking、Plan 模式、TDD 工作流
 - **案例**: 复杂项目管理、生产问题排查
 - **技能**: 深度思考、系统规划、质量保证
+
+### 🏢 Lesson 5: 社区最佳实践与高级模式
+- **文件**: `lessons/lesson-05-community-best-practices/`
+- **内容**: 企业级项目结构、专家代理系统、安全配置
+- **案例**: 电商开发、微服务迁移
+- **技能**: 企业级配置、团队协作、质量保证
+
+### 🎥 Lesson 6: Bilibili 视频字幕提取与内容处理
+- **文件**: `lessons/lesson-06-bilibili-subtitle-extraction/`
+- **内容**: 字幕提取、内容分析、学习资料生成
+- **案例**: 教程视频处理、语言学习
+- **技能**: 视频内容处理、自动化学习、内容分析
+
+### 📚 Lesson 7: Claude Code 官方最佳实践与高级技巧
+- **文件**: `lessons/lesson-07-official-best-practices/`
+- **内容**: 官方推荐配置、性能优化、故障排查
+- **案例**: 企业级部署、性能监控、安全加固
+- **技能**: 官方最佳实践、性能调优、问题解决
+
+### 🔧 Lesson 9: 实用工作流与高级配置管理
+- **文件**: `lessons/lesson-09-practical-workflows/`
+- **内容**: Kiro 工作流、GitHub 集成、多模型配置
+- **案例**: 规范驱动开发、自动化修复、团队协作
+- **技能**: 实用工作流、自动化、配置管理
 
 ## 🚀 快速开始
 
@@ -77,17 +105,24 @@ cp -r demos/.claude/ ./
 ```
 claude-code-learning/
 ├── README.md                    # 项目介绍
+├── CLAUDE.md                    # 项目学习记录
 ├── LICENSE                     # MIT 协议
 ├── .gitignore                  # Git 忽略文件
-├── lessons/                     # 课程内容
-│   ├── lesson-01-agents/        # Agents 指令
-│   ├── lesson-02-slash-commands/ # 自定义命令
-│   ├── lesson-03-multi-agent/   # 多代理协作
-│   └── lesson-04-advanced/      # 高级技巧
+├── lessons/                     # 课程内容 (9个完整课程)
+│   ├── lesson-01-agents/        # Agents 指令系统
+│   ├── lesson-02-slash-commands/ # 自定义 Slash 命令
+│   ├── lesson-03-multi-agent/   # 多代理协作工作流
+│   ├── lesson-04-advanced/      # 高级技巧与最佳实践
+│   ├── lesson-05-community-best-practices/ # 社区最佳实践
+│   ├── lesson-06-bilibili-subtitle-extraction/ # 视频字幕提取
+│   ├── lesson-07-official-best-practices/ # 官方最佳实践
+│   └── lesson-09-practical-workflows/ # 实用工作流
 ├── demos/                      # 完整示例
 │   ├── .claude/                 # Claude 配置
 │   ├── commands/               # 自定义命令
 │   └── demo-data/              # 测试数据
+├── zebbern-guide/              # zebbern项目研究参考
+├── feiskyer-settings/          # feiskyer项目研究参考
 └── docs/                       # 扩展文档
 ```
 
