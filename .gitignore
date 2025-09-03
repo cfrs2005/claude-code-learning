@@ -1,0 +1,52 @@
+# Claude Code 学习项目
+
+# 临时文件和缓存
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Claude Code 内部文件（选择性忽略）
+.claude/cache/
+.claude/logs/
+.claude/sessions/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 构建输出
+dist/
+build/
+out/
+
+# 测试覆盖率
+coverage/
+.nyc_output/

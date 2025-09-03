@@ -1,0 +1,14 @@
+2025-01-15 14:23:45 [ERROR] Database connection failed
+2025-01-15 14:23:45 [ERROR] Connection timeout after 5000ms
+2025-01-15 14:23:46 [WARN] Retrying connection (attempt 1/3)
+2025-01-15 14:23:51 [ERROR] Database connection failed
+2025-01-15 14:23:51 [ERROR] Connection timeout after 5000ms
+2025-01-15 14:23:52 [WARN] Retrying connection (attempt 2/3)
+2025-01-15 14:23:57 [ERROR] Database connection failed
+2025-01-15 14:23:57 [ERROR] Connection timeout after 5000ms  
+2025-01-15 14:23:58 [WARN] Retrying connection (attempt 3/3)
+2025-01-15 14:24:03 [FATAL] Max retries exceeded, service unavailable
+2025-01-15 14:24:03 [ERROR] UserService.login() failed: Database unavailable
+2025-01-15 14:24:03 [ERROR] PaymentService.processPayment() failed: Database unavailable
+2025-01-15 14:24:04 [WARN] Circuit breaker opened for database connections
+2025-01-15 14:24:05 [INFO] Fallback mode activated: Using cache for read operations

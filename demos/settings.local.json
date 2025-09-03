@@ -1,0 +1,69 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/zhangqingyue/Gaussian/test/learnagent/.claude/hooks/mcp-security-scan.sh"
+          }
+        ]
+      }
+,
+      {
+        "matcher": "mcp__gemini",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/zhangqingyue/Gaussian/test/learnagent/.claude/hooks/gemini-context-injector.sh"
+          }
+        ]
+      }
+,
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/zhangqingyue/Gaussian/test/learnagent/.claude/hooks/subagent-context-injector.sh"
+          }
+        ]
+      }
+    ]
+,
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/zhangqingyue/Gaussian/test/learnagent/.claude/hooks/notify.sh input"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/zhangqingyue/Gaussian/test/learnagent/.claude/hooks/notify.sh complete"
+          }
+        ]
+      }
+    ]
+  },
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_CONTEXT7_API_KEY"]
+    }
+,
+    "gemini": {
+      "command": "npx",
+      "args": ["-y", "gemini-mcp", "--api-key", "YOUR_GEMINI_API_KEY"]
+    }
+  }
+}
