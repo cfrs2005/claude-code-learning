@@ -1,0 +1,57 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="url(#title)">
+    Claude Code 高级技巧
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#888">
+    掌握 AI 辅助编程的核心技能
+  </text>
+  
+  <!-- Features Grid -->
+  <g transform="translate(150, 220)">
+    <!-- Feature 1 -->
+    <rect x="0" y="0" width="140" height="80" rx="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)"/>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#4ecdc4">🤖 Agents</text>
+    <text x="70" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ccc">专业分工</text>
+    
+    <!-- Feature 2 -->
+    <rect x="160" y="0" width="140" height="80" rx="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)"/>
+    <text x="230" y="30" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#4ecdc4">⚡ 命令</text>
+    <text x="230" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ccc">标准化</text>
+    
+    <!-- Feature 3 -->
+    <rect x="320" y="0" width="140" height="80" rx="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)"/>
+    <text x="390" y="30" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#4ecdc4">🔗 协作</text>
+    <text x="390" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ccc">链式工作流</text>
+    
+    <!-- Feature 4 -->
+    <rect x="480" y="0" width="140" height="80" rx="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)"/>
+    <text x="550" y="30" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#4ecdc4">🎯 审查</text>
+    <text x="550" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ccc">Linus 风格</text>
+  </g>
+  
+  <!-- Play Button -->
+  <circle cx="400" cy="350" r="30" fill="rgba(255,107,107,0.8)" stroke="white" stroke-width="3"/>
+  <polygon points="390,340 390,360 410,350" fill="white"/>
+  
+  <!-- Bottom text -->
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">
+    9个完整课程 · 从基础到企业级应用
+  </text>
+</svg>

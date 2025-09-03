@@ -5,6 +5,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Advanced-blue.svg)](https://docs.anthropic.com/claude-code)
 
+## 🎬 项目介绍视频
+
+<div align="center">
+  <a href="docs/resources/claude-code-intro.mp4" target="_blank">
+    <img src="https://img.shields.io/badge/📹%20观看项目介绍视频-36秒-blue?style=for-the-badge&logo=video" alt="观看视频">
+  </a>
+  <p><em>36秒快速了解 Claude Code 高级技巧学习项目</em></p>
+</div>
+
+**视频信息**: 1920×1080 Full HD | 1.7MB | 使用 Remotion 制作
+
+📹 [在线观看视频](docs/resources/claude-code-intro.mp4) | 📖 [视频资源详情](docs/resources/README.md)
+
 ## 📖 项目介绍
 
 这是一个系统学习 Claude Code 高级技巧的开源项目。通过实际案例和动手实践，帮助你掌握 Claude Code 的强大功能，从基础使用到高级工作流。
