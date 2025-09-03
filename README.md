@@ -8,15 +8,20 @@
 ## 🎬 项目介绍视频
 
 <div align="center">
-  <a href="docs/resources/claude-code-intro.mp4" target="_blank">
-    <img src="https://img.shields.io/badge/📹%20观看项目介绍视频-36秒-blue?style=for-the-badge&logo=video" alt="观看视频">
-  </a>
+  
+  <video src="https://github.com/cfrs2005/claude-code-learning/raw/main/docs/resources/claude-code-intro.mp4" width="800" controls>
+    您的浏览器不支持视频播放。
+    <a href="https://github.com/cfrs2005/claude-code-learning/raw/main/docs/resources/claude-code-intro.mp4">点击下载视频</a>
+  </video>
+  
   <p><em>36秒快速了解 Claude Code 高级技巧学习项目</em></p>
+  
+  [📹 下载高清视频](https://github.com/cfrs2005/claude-code-learning/raw/main/docs/resources/claude-code-intro.mp4) | 
+  [📖 视频资源详情](docs/resources/README.md)
+  
 </div>
 
 **视频信息**: 1920×1080 Full HD | 1.7MB | 使用 Remotion 制作
-
-📹 [在线观看视频](docs/resources/claude-code-intro.mp4) | 📖 [视频资源详情](docs/resources/README.md)
 
 ## 📖 项目介绍
 
